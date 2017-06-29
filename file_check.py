@@ -16,17 +16,37 @@ import os.path
 
 adr01_file = Path(/home/bhart/Documents/Python/home/adr01/upload/monitor*.pgp)
 if adr01_file.is_file():
+    print('File exists')
+ else:
+     print('File dot not exist')
+    
     
 chpt_file = Path(/home/bhart/Documents/Python/home/chpt/upload/monitor*.pgp)
 if adr01_file.is_file():
+    print('File exists')
+else:
+    print('File does not exist')
+    
     
 emb01_file = Path(/home/bhart/Documents/Python/home/emb01/upload/monitor*.pgp)
 if adr01_file.is_file():
+    print('File exists')
+else:
+    print('File does not exist')
+    
     
 exp01_file = Path(/home/bhart/Documents/Python/home/exp01/upload/monitor*.pgp)
 if adr01_file.is_file():
+    print('File exists')
+else:
+    print('File does not exist')
+    
     
 iix01_file = Path(/home/bhart/Documents/Python/home/iix01/upload/monitor*.pgp)
 if adr01_file.is_file():
+    print('File exists')
+else:
+    print('File does not exist')
+    
     
 
