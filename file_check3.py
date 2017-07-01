@@ -1,7 +1,9 @@
 # -*- coding: UTF-8 -*-
-#
+# Ben Hart - SysAdmin Montana Interactive
 # Jul 2017
-#
+# This file checks the chroot user directories for the Monitor customers uploads folders to
+# verify the monthly files exist.
+
 import glob
 import os
 from datetime import datetime
