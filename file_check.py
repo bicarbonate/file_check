@@ -1,48 +1,37 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-This is a temporary script file.
-"""
-from pathlib import Path
-import os.path
-#os.path.isfile()
+from pathlib import *
 
-#adr01_file = Path(/chroot/monitor/adr01/upload/)
-#chpt_file = Path(/chroot/monitor/chpt/upload/monitor*.pgp)
-#emb01_file = Path(/chroot/monitor/emb01/upload/)
-#exp01_file = Path(/chroot/monitor/exp01/upload/)
-#iix01_file = Path(/chroot/monitor/iix01/upload/)
 
-adr01_file = Path(/home/bhart/Documents/Python/home/adr01/upload/monitor*.pgp)
+adr01_file = Path("/home/skeer/Documents/Projects/Python_temp/home/adr01/upload/monitor.20170701.pgp")
 if adr01_file.is_file():
-    print('File exists')
- else:
-     print('File dot not exist')
-    
-    
-chpt_file = Path(/home/bhart/Documents/Python/home/chpt/upload/monitor*.pgp)
-if adr01_file.is_file():
-    print('File exists')
+    print("File exists")
 else:
-    print('File does not exist')
+    print("File does not exist")
+
     
-    
-emb01_file = Path(/home/bhart/Documents/Python/home/emb01/upload/monitor*.pgp)
+chpt_file = Path("/home/skeer/Documents/Projects/Python_temp/home/chpt/upload/monitor.2017.0701.pgp")
 if adr01_file.is_file():
-    print('File exists')
+    print("File exists")
 else:
-    print('File does not exist')
+    print("File does not exist")
     
     
-exp01_file = Path(/home/bhart/Documents/Python/home/exp01/upload/monitor*.pgp)
+emb01_file = Path("/home/skeer/Documents/Projects/Python_temp/home/emb01/upload/monitor*.pgp")
 if adr01_file.is_file():
-    print('File exists')
+    print("File exists")
 else:
-    print('File does not exist')
+    print("File does not exist")
     
     
-iix01_file = Path(/home/bhart/Documents/Python/home/iix01/upload/monitor*.pgp)
+exp01_file = Path("/home/skeer/Documents/Projects/Python_temp/home/exp01/upload/monitor*.pgp")
+if adr01_file.is_file():
+    print("File exists")
+else:
+    print("File does not exist")
+    
+    
+iix01_file = Path("/home/skeer/Documents/Projects/Python_temp/home/iix01/upload/monitor*.pgp")
 if adr01_file.is_file():
     print('File exists')
 else:
